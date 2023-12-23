@@ -23,7 +23,7 @@ int main() {
     // Выведите первый язык, начинающийся на J, используя алгоритм find_if
     auto it = find_if(langs.begin(), langs.end(), [](const Lang& lang) {
         return !lang.name.empty() && lang.name[0] == 'J';
-    });
+    });itera
     cout << it->name << ", " << it->age << endl;
 }
 //3 Print Range

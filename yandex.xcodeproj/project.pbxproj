@@ -23,9 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C46678E2B369DFD00A8454C /* 02.Производительность и оптимизация */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "02.Производительность и оптимизация"; path = "yandex/02.Производительность и оптимизация"; sourceTree = "<group>"; };
+		0C46678F2B369DFD00A8454C /* 01.Базовые понятия С++ и STL */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "01.Базовые понятия С++ и STL"; path = "yandex/01.Базовые понятия С++ и STL"; sourceTree = "<group>"; };
 		0CCC04FC2B2EDB7C0099BAFD /* yandex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = yandex; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCC04FF2B2EDB7C0099BAFD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		0CCC05062B2EDBE70099BAFD /* 04.Базовые понятия С++ и STL */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "04.Базовые понятия С++ и STL"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,8 @@
 		0CCC04F32B2EDB7C0099BAFD = {
 			isa = PBXGroup;
 			children = (
+				0C46678F2B369DFD00A8454C /* 01.Базовые понятия С++ и STL */,
+				0C46678E2B369DFD00A8454C /* 02.Производительность и оптимизация */,
 				0CCC04FE2B2EDB7C0099BAFD /* yandex */,
 				0CCC04FD2B2EDB7C0099BAFD /* Products */,
 			);
@@ -59,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				0CCC04FF2B2EDB7C0099BAFD /* main.cpp */,
-				0CCC05062B2EDBE70099BAFD /* 04.Базовые понятия С++ и STL */,
 			);
 			path = yandex;
 			sourceTree = "<group>";
