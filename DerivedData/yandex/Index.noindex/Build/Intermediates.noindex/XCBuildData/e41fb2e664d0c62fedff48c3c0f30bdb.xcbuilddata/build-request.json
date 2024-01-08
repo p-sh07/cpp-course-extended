@@ -1,0 +1,59 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "c491bf623eb1eda902066e908f5784cc68aad4d6106188aa3f277d0fb772c7d9"
+    }
+  ],
+  "containerPath" : "/Users/pavelsh/Projects/cpp-course/yandex-practicum-cpp-extended/yandex.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx14.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/pavelsh/Projects/cpp-course/yandex-practicum-cpp-extended/DerivedData/yandex/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/pavelsh/Projects/cpp-course/yandex-practicum-cpp-extended/DerivedData/yandex/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/pavelsh/Projects/cpp-course/yandex-practicum-cpp-extended/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/pavelsh/Projects/cpp-course/yandex-practicum-cpp-extended/DerivedData/yandex/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/pavelsh/Projects/cpp-course/yandex-practicum-cpp-extended/DerivedData/yandex/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/pavelsh/Projects/cpp-course/yandex-practicum-cpp-extended/DerivedData/yandex/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/pavelsh/Projects/cpp-course/yandex-practicum-cpp-extended/DerivedData/yandex/Build/Products",
+      "pchPath" : "/Users/pavelsh/Projects/cpp-course/yandex-practicum-cpp-extended/DerivedData/yandex/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
