@@ -1,3 +1,0 @@
-/Users/ps/Documents/cpp-course/cpp-spreadsheet/spreadsheet-qtc/build/Qt_6_7_0_macos-Debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-/Users/ps/Documents/cpp-course/cpp-spreadsheet/spreadsheet-qtc/build/Qt_6_7_0_macos-Debug/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-/Users/ps/Documents/cpp-course/cpp-spreadsheet/spreadsheet-qtc/build/Qt_6_7_0_macos-Debug/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
