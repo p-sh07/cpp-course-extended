@@ -6,10 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		0CCC05002B2EDB7C0099BAFD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC04FF2B2EDB7C0099BAFD /* main.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		0CCC04FA2B2EDB7C0099BAFD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -25,8 +21,10 @@
 /* Begin PBXFileReference section */
 		0C46678E2B369DFD00A8454C /* 02.Производительность и оптимизация */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "02.Производительность и оптимизация"; path = "yandex/02.Производительность и оптимизация"; sourceTree = "<group>"; };
 		0C46678F2B369DFD00A8454C /* 01.Базовые понятия С++ и STL */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "01.Базовые понятия С++ и STL"; path = "yandex/01.Базовые понятия С++ и STL"; sourceTree = "<group>"; };
+		0C4714F62BAC593E00794232 /* 03.Качество кода */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "03.Качество кода"; path = "yandex/03.Качество кода"; sourceTree = "<group>"; };
 		0CCC04FC2B2EDB7C0099BAFD /* yandex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = yandex; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CCC04FF2B2EDB7C0099BAFD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4D8904F42C47ED0F0065F7FA /* 05.Финальные проекты спринтов */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "05.Финальные проекты спринтов"; path = "yandex/05.Финальные проекты спринтов"; sourceTree = "<group>"; };
+		4D9936052C15A73200257519 /* 04.Проектирование сложных программ */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "04.Проектирование сложных программ"; path = "yandex/04.Проектирование сложных программ"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,9 +41,11 @@
 		0CCC04F32B2EDB7C0099BAFD = {
 			isa = PBXGroup;
 			children = (
+				4D8904F42C47ED0F0065F7FA /* 05.Финальные проекты спринтов */,
+				4D9936052C15A73200257519 /* 04.Проектирование сложных программ */,
+				0C4714F62BAC593E00794232 /* 03.Качество кода */,
 				0C46678F2B369DFD00A8454C /* 01.Базовые понятия С++ и STL */,
 				0C46678E2B369DFD00A8454C /* 02.Производительность и оптимизация */,
-				0CCC04FE2B2EDB7C0099BAFD /* yandex */,
 				0CCC04FD2B2EDB7C0099BAFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,14 +56,6 @@
 				0CCC04FC2B2EDB7C0099BAFD /* yandex */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0CCC04FE2B2EDB7C0099BAFD /* yandex */ = {
-			isa = PBXGroup;
-			children = (
-				0CCC04FF2B2EDB7C0099BAFD /* main.cpp */,
-			);
-			path = yandex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +115,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CCC05002B2EDB7C0099BAFD /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

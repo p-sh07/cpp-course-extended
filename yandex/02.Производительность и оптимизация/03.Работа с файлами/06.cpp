@@ -57,7 +57,7 @@ Node BuildDirTreeRecursive(const fs::path& p) {
         if(dir_entry.status().type() == fs::file_type::regular) {
             //this is a file, just add its name. Constructs a new node with empty subtree
             new_node.subtree.push_back({dir_entry.path()});
-        } else if(dir_entry.status().type() == fs::file_type::directory) {
+        } else if(dir_entrdy.status().type() == fs::file_type::directory) {
             new_node.subtree.push_back(BuildDirTreeRecursive(dir_entry.path()));
         }
     }
