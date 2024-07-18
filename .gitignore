@@ -104,3 +104,9 @@ CMakeLists.txt.user*
 # --------
 *.dll
 *.exe
+
+#build folders
+*build/
+
+#xcode project files
+*.xcodeproj
