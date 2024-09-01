@@ -1,4 +1,4 @@
-Яндекс Практикум "Разработчик С++ - расширенный"
+Cpp course by YP, completed 2023-2024
 https://practicum.yandex.ru/cpp/?from=catalog
 
 Sprint 01 - 04: Базовые понятия языка С++ и его стандартной библиотеки
